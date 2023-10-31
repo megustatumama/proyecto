@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k</title>
+    <style>
+        .padre{
+        border: 2px solid blue;
+        margin: 10px;
+        padding: 10px;
+        }
+        .hijo{
+        border: 2px solid rgb(80, 2, 80);
+        margin: 5px;
+        padding: 5px;
+        }
+        .nieto{
+        border: 2px solid rgb(151, 9, 9);
+        margin: 3px;
+        padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <h1>Div del padre</h1>
+        <p>Este es el contenido del padre</p>
+        <div class="hijo">
+            <h3>Div del hijo 1</h3>
+            <p>Este es el contenido del hijo 2</p>
+            <div class="nieto">
+                <h6>Div del nieto 1</h6>
+                <p>Este es el contenido del nieto 1</p>
+            </div>
+            <div class="nieto">
+                <h6>Div del nieto 2</h6>
+                <p>Este es el contenido del nieto 2</p>
+            </div>
+        </div>
+        <div class="hijo">
+            <h3>Div del hijo 2</h3>
+            <p>Este es el contenido del hijo 2</p>
+        </div>
+    </div>
+</body>
+</html>

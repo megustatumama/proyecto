@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registro.css"></head><body>
+        <script>
+            function validar(){
+                var usuario = document.getElementById("usuario").value;
+                var contrasena = document.getElementById ("contrasena").value;
+            
+                if (usuario === "maria" && contrasena === "123"){
+                    alert ("inicio de sesión exitoso")
+                    window.location.href= "https://www.crunchyroll.com/"
+                } else{
+                    alert("inicio de sesión fallido")
+                }
+             }
+            
+        </script>
+        <div class="todo">
+    <form action="" class="form">
+    <h1 class="title"> Ingreso </h1>
+    <div class="inputContainer" class="input">
+        <label for="" class="label">Usuario</label>
+    <input type="text" class="input" id="usuario" name="usuario" placeholder="usuario">
+</div>
+    <div class="inputContainer">
+        <label for="" class="label">Contraseña</label>
+    <input type="password" class="input" id="contrasena" name="contrasena" placeholder="contrasena">
+</div>
+<input type="button" class="button" value="ingresar" onclick="validar()">
+</form> 
+</div>
+</body>
+</html>

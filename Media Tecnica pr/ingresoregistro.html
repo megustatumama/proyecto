@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ingreso.css"></head><body>
+        <script>
+            function validar(){
+                var correo = document.getElementById("correo").value;
+                var contrasena = document.getElementById ("contrasena").value;
+                
+            
+                if (name === "Paulina Restrepo" && Usuario  === "KenmaMiNovio" && documento === "1027804521" && correo === "paulinarestrepoaz11@gmail.com" && contrasena === "20071611"){
+                    alert ("inicio de sesión exitoso")
+                    window.location.href= "file:///D:/Desktop/Media%20Tecnica%20pr/paginamangas.html"
+                } else{
+                    alert("inicio de sesión fallido")
+                }
+             }
+            
+        </script>
+        <div class="todo">
+    <form action="" class="form">
+    <h1 class="title"> Registro </h1>
+    
+    <div class="inputContainer">
+    <label for="" class="label">Correo Electronico</label>
+<input type="email" class="input" id="correo" name="correo" placeholder="correo">
+</div>
+    <div class="inputContainer">
+        <label for="" class="label">Contraseña</label>
+    <input type="password" class="input" id="contrasena" name="contrasena" placeholder="contrasena">
+    </div>
+<input type="button" class="button" value="ingresar" onclick="validar()">
+</form> 
+</div>
+</body>
+</html>
